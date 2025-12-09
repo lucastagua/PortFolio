@@ -61,10 +61,10 @@
 </head>
 <body>
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-custom py-3" aria-label="Principal">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" aria-label="Principal">
     <div class="container">
-      <img class="avatar" loading="lazy" src="img/Logo.png" alt="Lucas Tagua">
-      <a class="navbar-brand fw-bold" href="#">Lucas Tagua</a>
+      <img class="avatar" loading="lazy" src="img/Logo2.png" alt="Lucas Tagua">
+      <a class="navbar-brand fw-bold ms-3" href="#">Lucas Tagua</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Abrir menú">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -86,41 +86,93 @@
   <header class="py-5 reveal">
     <div class="container">
       <div class="row align-items-center g-4">
+        <!-- Columna izquierda: mensaje principal -->
         <div class="col-12 col-lg-7">
-          <h1 class="display-5 fw-bold hero-title">Lucas Tagua • Desarrollador Web ( .NET · SQL · React )</h1>
-          <p class="lead text-muted-2 text-justify">Desarrollo aplicaciones web completas con .NET Core, SQL Server y React.
-          APIs REST, bases de datos sólidas y frontends modernos con Bootstrap.</p>
-          <div class="d-flex gap-2 flex-wrap">
-            <a href="#projects" class="btn btn-accent btn-lg btn-outline-light shadow-soft">Ver proyectos</a>
-            <a href="#contact" class="btn btn-outline-light btn-lg">Contactarme</a>
-            <a href="https://www.linkedin.com/in/lucastagua" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-linkedin"></i></a>
+          <p class="section-eyebrow mb-2">Fullstack .NET · React · SQL</p>
+          <h1 class="display-5 fw-bold hero-title">
+            Lucas Tagua · Fullstack Developer Jr
+          </h1>
+          <p class="lead hero-subtitle text-justify">
+            Desarrollo aplicaciones web completas con <b>ASP.NET Core</b>, 
+            <b>SQL Server</b> y <b>React</b>. APIs REST, CRUDs reales y frontends modernos listos para producción.
+          </p>
+
+          <div class="hero-actions d-flex gap-2 flex-wrap">
+            <a href="#projects" class="btn btn-accent btn-lg shadow-soft">
+              Ver proyectos
+            </a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">
+              Contactarme
+            </a>
+            <a href="https://www.linkedin.com/in/lucastagua"
+              class="btn btn-outline-light btn-lg"
+              target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin me-1"></i> LinkedIn
+            </a>
           </div>
         </div>
+
+        <!-- Columna derecha: panel de stack -->
         <div class="col-12 col-lg-5">
-          <div class="card-custom shadow-soft p-4">
-            <div class="d-flex align-items-center gap-3">
+          <div class="card-custom hero-panel shadow-soft mt-5 p-4">
+            <div class="d-flex align-items-center gap-3 mb-3">
               <img class="avatar" loading="lazy" src="img/Logo2.png" alt="Lucas Tagua">
               <div>
-                <div class="fw-bold">Disponibilidad inmediata</div>
-                <div class="text-muted-2">Remoto o híbrido · CABA · Full-time</div>
+                <div class="hero-badge">
+                  Disponible · Remoto / Híbrido · CABA
+                </div>
+                <div class="text-muted-2 small">
+                  Buscando: Web Developer Jr / Backend .NET / Fullstack
+                </div>
               </div>
             </div>
+
             <div class="divider my-3"></div>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">JavaScript</span>
-              <span class="tag">Bootstrap</span>
-              <span class="tag">MVC</span>
-              <span class="tag">SQL</span>
-              <span class="tag">jQuery</span>
-              <span class="tag">C#</span>
-              <span class="tag">.Net Core</span>
-              <span class="tag">Git</span>
-              <span class="tag">GitHub</span>
-              <span class="tag">VS Code</span>
-              <span class="tag">Microsoft SQL Server Management</span>
+
+            <h2 class="h6 text-muted-2 mb-3">Stack principal</h2>
+
+            <div class="hero-grid">
+              <div>
+                <p class="hero-grid-label">Backend</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="tag">ASP.NET Core</span>
+                  <span class="tag">Web API</span>
+                  <span class="tag">C#</span>
+                  <span class="tag">Entity Framework Core</span>
+                  <span class="tag">SQL Server</span>
+                </div>
+              </div>
+
+              <div>
+                <p class="hero-grid-label">Frontend</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="tag">React</span>
+                  <span class="tag">JavaScript (ES6+)</span>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                </div>
+              </div>
+
+              <div>
+                <p class="hero-grid-label">Herramientas</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="tag">Git &amp; GitHub</span>
+                  <span class="tag">Postman</span>
+                  <span class="tag">Visual Studio</span>
+                  <span class="tag">VS Code</span>
+                  <span class="tag">SSMS</span>
+                </div>
+              </div>
             </div>
+
+            <div class="divider my-3"></div>
+
+            <p class="small text-muted-2 mb-0 text-justify">
+              Enfoque en <b>código limpio</b>, buenas prácticas y soluciones
+              que funcionen desde el primer día: CRUDs, APIs REST y
+              sistemas de gestión integrando frontend y backend.
+            </p>
           </div>
         </div>
       </div>
@@ -133,7 +185,7 @@
       <div class="row g-4">
         <div class="col-lg-8">
           <div class="card-custom p-4 shadow-soft">
-            <h2 class="h4">Sobre mí</h2>
+            <h2 class="section-heading">Sobre mí</h2>
             <p class="text-justify">Soy un <b>desarrollador web</b> orientado a resultados, con experiencia construyendo aplicaciones reales en <b>.NET Core, SQL Server y Bootstrap</b>, además de interfaces modernas con <b>React</b>.
             <br>
             <br>
@@ -148,7 +200,7 @@
           <div class="card-custom p-4 shadow-soft">
             <h2 class="h5">Contacto rápido</h2>
             <ul class="list-unstyled mb-0">
-              <li><i class="fa-solid fa-envelope me-1"></i>Email: <a href="mailto:lucastagua.dev@gmail.com">lucastagua.dev@gmail.com</a></li>
+              <li><i class="fa-solid fa-envelope me-1"></i>Email: <a href="mailto:lucasatagua@gmail.com">lucasatagua@gmail.com</a></li>
               <li><i class="fa-solid fa-phone me-1"></i>Teléfono: <a href="tel:+541134718604">+54 11 3471-8604</a></li>
               <li><i class="fa-solid fa-location-dot me-1"></i>Ubicación: CABA, Argentina</li>
               <li><i class="fa-brands fa-linkedin me-1"></i>Linkedin: <a href="https://www.linkedin.com/in/lucastagua" target="_blank" rel="noopener">linkedin.com/in/lucastagua</a></li>
@@ -161,14 +213,98 @@
     </div>
   </section>
 
+  <!-- VALUE / QUÉ PUEDO APORTAR -->
+  <section id="value" class="py-5 reveal">
+    <div class="container">
+      <p class="section-eyebrow">Qué puedo aportar</p>
+      <h2 class="section-heading mb-4">
+        Cómo puedo sumar a tu equipo
+      </h2>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="value-card card-custom p-3 shadow-soft h-100">
+            <h3 class="h6 mb-2"><i class="fa-solid fa-code-branch me-2 text-accent"></i>Fullstack .NET real</h3>
+            <p class="small text-muted-2 mb-0 text-justify">
+              Desarrollo <b>APIs REST</b> con ASP.NET Core, Entity Framework Core
+              y SQL Server, desde el modelado de datos hasta el consumo
+              desde el frontend.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="value-card card-custom p-3 shadow-soft h-100">
+            <h3 class="h6 mb-2">CRUDs y sistemas de gestión</h3>
+            <p class="small text-muted-2 mb-0 text-justify">
+              Construyo <b>ABM completos</b> con validaciones,
+              filtros, paginado y búsquedas, aplicados a sistemas médicos,
+              catálogos de productos y dashboards.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="value-card card-custom p-3 shadow-soft h-100">
+            <h3 class="h6 mb-2">Frontend moderno</h3>
+            <p class="small text-muted-2 mb-0 text-justify">
+              Interfaces responsivas con <b>React</b> y <b>Bootstrap</b>,
+              componentes reutilizables, manejo de estado y consumo de APIs
+              para dashboards y SPAs.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="value-card card-custom p-3 shadow-soft h-100">
+            <h3 class="h6 mb-2">Bases de datos sólidas</h3>
+            <p class="small text-muted-2 mb-0 text-justify">
+              Diseño schemas en <b>SQL Server</b>, relaciones,
+              índices básicos y consultas optimizadas para aplicaciones
+              de negocio.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="value-card card-custom p-3 shadow-soft h-100">
+            <h3 class="h6 mb-2">Buenas prácticas</h3>
+            <p class="small text-muted-2 mb-0 text-justify">
+              Trabajo con <b>MVC</b>, separación de capas, DTOs,
+              validaciones server/client y manejo de errores en APIs.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="value-card card-custom p-3 shadow-soft h-100">
+            <h3 class="h6 mb-2">Actitud y crecimiento</h3>
+            <p class="small text-muted-2 mb-0 text-justify">
+              Aprendo rápido, me adapto a procesos existentes y estoy
+              empezando la <b>Tecnicatura Universitaria en Programación (UTN)</b>
+              para seguir profesionalizando mi perfil.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="highlights card-custom shadow-soft mt-4">
+        <div class="highlights-item">+7 proyectos web completos</div>
+        <div class="highlights-item">APIs REST y CRUDs reales en .NET</div>
+        <div class="highlights-item">Dashboard fullstack con React</div>
+        <div class="highlights-item">Sistema médico con Identity y ABM real</div>
+      </div>
+    </div>
+  </section>
+
   <!-- SKILLS -->
   <section id="skills" class="py-4 reveal">
     <div class="container">
-      <h2 class="h4 mb-3">Skills</h2>
+      <h2 class="h4 mb-3 section-heading">Skills</h2>
       <div class="card-custom p-4 shadow-soft">
         <div class="row">
-          <div class="col-md-4">
-            <h3 class="h6 text-muted-2 smallcaps">Lenguajes y Frameworks</h3>
+          <div class="col-md-4 tech-icons">
+            <h3 class="section-title"><i class="fa-brands fa-react fa-2x"></i> Lenguajes y Frameworks</h3>
             <div>
               <span class="skill">C#</span>
               <span class="skill">.NET Core (MVC / Web API)</span>
@@ -178,8 +314,8 @@
               <span class="skill">jQuery (nivel básico)</span>
             </div>
           </div>
-          <div class="col-md-4">
-            <h3 class="h6 text-muted-2 smallcaps">Herramientas</h3>
+          <div class="col-md-4 tech-icons">
+            <h3 class="section-title"><i class="fa-brands fa-git-alt fa-2x"></i> Herramientas</h3>
             <div>
               <span class="skill">Visual Studio</span>
               <span class="skill">Visual Studio Code</span>
@@ -188,8 +324,8 @@
               <span class="skill">Postman (para pruebas de APIs)</span>
             </div>
           </div>
-          <div class="col-md-4">
-            <h3 class="h6 text-muted-2 smallcaps">Bases de Datos</h3>
+          <div class="col-md-4 tech-icons">
+            <h3 class="section-title"><i class="fa-solid fa-database fa-2x"></i> Bases de Datos</h3>
             <div>
               <span class="skill">SQL Server</span>
               <span class="skill">Entity Framework Core</span>
@@ -203,7 +339,7 @@
   <!-- PROJECTS -->
   <section id="projects" class="py-4 reveal">
     <div class="container">
-      <h2 class="h4 mb-3">Proyectos</h2>
+      <h2 class="section-heading">Proyectos</h2>
       <div class="row g-3">
         <div class="col-md-6 col-lg-4">
           <article class="card-custom p-3 project shadow-soft h-100">
@@ -211,7 +347,7 @@
               <img src="img/sitio.png" loading="lazy" alt="Sitio web" class="img-fluid mb-3 rounded">
             </a>
             <div class="d-flex justify-content-between align-items-start">
-              <h3 class="h6 mb-2">Sitio web</h3>
+              <h3 class="section-title">Sitio web</h3>
             </div>
             <div class="mb-2">
               <span class="tag">HTML</span>
@@ -236,7 +372,7 @@
               <img src="img/Listacontacto.png" loading="lazy" alt="Mini CRUD Screenshot" class="img-fluid mb-3 rounded">
             </a>
             <div class="d-flex justify-content-between align-items-start mb-2">
-              <h3 class="h6 mb-0">Mini CRUD (C# MVC)</h3>
+              <h3 class="section-title">Mini CRUD (C# MVC)</h3>
             </div>
             <div class="mb-2">
               <span class="tag">MVC</span>
@@ -260,7 +396,7 @@
           <article class="card-custom p-3 project shadow-soft h-100">
             <img src="img/Sistematurnos.png" loading="lazy" alt="Sistema de Turnos - ASP.NET Core MVC" class="img-fluid mb-3 rounded">
             <div class="d-flex justify-content-between align-items-start mb-2">
-              <h3 class="h6 mb-0">Sistema de Gestión Médica | .NET CORE + SQL Server</h3>
+              <h3 class="section-title">Sistema de Gestión Médica | .NET CORE + SQL Server</h3>
             </div>
 
             <div class="mb-2">
@@ -291,7 +427,7 @@
               <img src="img/brothers-oud-react.png" loading="lazy" alt="Mini CRUD Screenshot" class="img-fluid mb-3 rounded">
             </a>
             <div class="d-flex justify-content-between align-items-start mb-2">
-              <h3 class="h6 mb-0">Catálogo de Perfumes Brothers Oud · React</h3>
+              <h3 class="section-title">Catálogo de Perfumes Brothers Oud · React</h3>
             </div>
 
             <div class="mb-2">
@@ -328,7 +464,7 @@
               <img src="img/dashboard-react.png" loading="lazy" alt="dashboard-react Screenshot" class="img-fluid mb-3 rounded">
             </a>
             <div class="d-flex justify-content-between align-items-start mb-2">
-              <h3 class="h6 mb-0">Dashboard de Productos · .NET + React</h3>
+              <h3 class="section-title">Dashboard de Productos · .NET + React</h3>
             </div>
 
             <div class="mb-2">
@@ -369,7 +505,7 @@
         <div class="col-md-6 col-lg-4">
           <article class="card-custom p-3 project shadow-soft h-100">
             <div class="d-flex justify-content-between align-items-start">
-              <h3 class="h6 mb-2"> Web API </h3>
+              <h3 class="section-title"> Web API </h3>
             </div>
             <p class="mb-2 text-justify">proyecto completo y profesional: subida de archivos, sistema de usuario con roles, validaciones, base de datos de SQL Server, relaciones entre tablas, Entity Framework Core, pruebas unitarias y de integración, manejo de errores en producción y más</p>
             <div class="mt-auto d-flex gap-2">
@@ -485,9 +621,9 @@
   <!-- CONTACT -->
   <section id="contact" class="py-5 reveal">
     <div class="container">
-      <h2 class="h4 mb-3">Contacto</h2>
+      <h2 class="section-heading">Contacto</h2>
       <div class="card-custom p-4 shadow-soft">
-        <h4 class="mb-4 text-justify text-center p-3">¡Listo para unirme a un equipo y aportar desde el primer día!</h4>
+        <h4 class="mb-4 text-justify text-center p-3 section-title">¡Listo para unirme a un equipo y aportar desde el primer día!</h4>
 
         <div id="formAlert" class="alert-surface d-none mb-4" role="alert" aria-live="polite"></div>
 
@@ -544,8 +680,12 @@
 
   <!-- Footer -->
   <footer class="py-4 text-center text-muted-2 reveal">
-     <img class="avatar" loading="lazy" src="img/Logo2.png" alt="Lucas Tagua">
-    <div class="container small">© <span id="y"></span> Lucas Tagua · Portfolio</div>
+
+    <div class="container small text-muted-2">
+      <span class="me-2 opacity-75">© <span id="y"></span> Lucas Tagua</span> 
+      · Fullstack Developer Jr
+    </div>
+
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
